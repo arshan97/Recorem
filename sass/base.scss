@@ -1,0 +1,27 @@
+// BASE COLORS
+
+$color-1: #6b62a8;
+$color-2: #ffffff;
+$color-3: #fafafa;
+
+// #a2acab
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Alegreya, serif;
+  // background: linear-gradient(to left, $color-1, $color-2);
+  overflow-x: hidden;
+  background-color: $color-2;
+  font-family: "Questrial", sans-serif;
+}
